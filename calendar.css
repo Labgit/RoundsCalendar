@@ -1,0 +1,48 @@
+﻿@media (min-width: 1900px){
+    .container {
+        max-width: 1880px;
+    }
+}
+
+.calendar-scroller {
+    overflow-x: scroll;
+}
+
+.calendar-navigator {
+    float:right;
+    margin-right: 15px;
+}
+
+.calendar-scroller .row {
+    margin: 0;
+}
+
+.calendar-parent {
+    width: 1860px;
+}
+
+.calendar-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.calendar-week-day {
+    width: 14%;
+    text-align: center;
+}
+
+.calendar {
+    padding: 5px;
+}
+
+.calendar > .row:hover {
+    background-color: aqua;
+}
+
+.calendar-day {
+    width: 14.285714285714285714285714285714%;
+    border-style: groove;
+    height: 100px;
+}
